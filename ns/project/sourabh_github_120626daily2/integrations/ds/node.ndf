@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">IWHI.Serengeti.Team.Functional.ID@ibm.com</value>
-    <value name="createdDate">1781233720554</value>
-    <value name="lastModifiedDate">1781233720554</value>
+    <value name="lastModifiedBy">IWHI.Serengeti.Team.Functional.ID@ibm.com</value>
+    <value name="lastModifiedDate">1781234183653</value>
     <value name="displayName">ds</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -60,6 +59,18 @@
           <null name="services"/>
         </record>
         <Boolean name="isProjectPackage">false</Boolean>
+        <Boolean name="serviceReferenceResolved">false</Boolean>
+        <value name="nodePathForDebug">0</value>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">lowerFS</value>
+          <value name="serviceName">LowerFSPackage:lowerFS</value>
+          <value name="displayName">lowerFS</value>
+          <value name="assetType">Flow Service</value>
+          <null name="nsName"/>
+          <value name="itemType">flowService</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
   </record>
